@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #22a2b7;
+        }
+
+        .container h1 {
+            color: #302b2b;
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        .registartion-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            font-family: sans-serif;
+            background-color: #094e5a;
+            padding: 20px;
+        }
+
+        .registartion-form input,
+        .registartion-form select,
+        .registartion-form textarea {
+            border: none;
+            padding: 5px;
+            margin-top: 10px;
+            font-family: sans-serif;
+        }
+
+        .registartion-form input:focus,
+        .registartion-form textarea:focus {
+            box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+        }
+
+        .registartion-form .submit {
+            width: 100%;
+            padding: 8px 0;
+            font-size: 25px;
+            font-weight: 600;
+            color: rgb(44, 44, 44);
+            background-color: #ffffff;
+            border-radius: 5px;
+        }
+
+        .registartion-form .submit:hover {
+            background-color: lightblue;
+            box-shadow: 3px 3px 6px rgb(255, 214, 176);
+        }
+    </style>
+</head>
+
+<body>
+    <title>Registration form</title>
+    <div class="container">
+        <h1>Registration Form <h1>
+                <form name="registration" class="registartion-form">
+                    <table>
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" name="name" id="name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="text" name="email" id="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phoneNumber">Mobile:</label></td>
+                            <td><input type="" name="phoneNumber" id="phoneNumber"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phoneNumber">City:</label></td>
+                            <td><input type="text" name="phoneNumber" id="phoneNumber"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phoneNumber">State:</label></td>
+                            <td><input type="text" name="phoneNumber" id="phoneNumber"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phoneNumber">Country:</label></td>
+                            <td><input type="text" name="phoneNumber" id="phoneNumber"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+                        </tr>
+                    </table>
+                </form>
+    </div>
+</body>
+</html>
