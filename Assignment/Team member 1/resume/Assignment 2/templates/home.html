@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="myPage">
+
+    <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-left-align">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"
+                href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="home.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+            <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Logout</a>
+
+        </div>
+    </div>
+
+
+    <!-- Image Header -->
+    <div class="w3-display-container w3-animate-opacity">
+        <img src="images/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+        <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+            <button onclick="document.getElementById('id01').style.display='block'"
+                class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">LEARN AND ENJOY BUILDING
+                WEBSITES</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-animate-top">
+            <header class="w3-container w3-teal w3-display-container">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                    class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+                <h4>Oh snap! We just showed you a modal..</h4>
+                <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+            </header>
+            <div class="w3-container">
+                <p>Cool huh? Ok, enough teasing around..</p>
+
+            </div>
+            <footer class="w3-container w3-teal">
+                <p>Modal footer</p>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <!-- Work Row -->
+    <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+        <div>
+            <h2>What We Do</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+    <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+        <h2>PYTHON</h2>
+
+        <div class="w3-third w3-margin-bottom">
+            <ul class="w3-ul w3-border w3-hover-shadow">
+                <li class="w3-theme">
+                    <p class="w3-xlarge"><a href="https://dev.to/phylis/python-101-introduction-to-python-2eh4"
+                            style="text-decoration: none;">Introduction</a></p>
+
+                <li class="w3-theme-l5 w3-padding-24">
+                    <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w3-third w3-margin-bottom">
+            <ul class="w3-ul w3-border w3-hover-shadow">
+                <li class="w3-theme-l2">
+                    <p class="w3-xlarge"><a
+                            href="https://dev.to/phylis/introduction-to-control-flow-and-functions-in-python-41cc"
+                            style="text-decoration: none;">Functions and Control Flow</a></p>
+
+                <li class="w3-theme-l5 w3-padding-24">
+                    <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w3-third w3-margin-bottom">
+            <ul class="w3-ul w3-border w3-hover-shadow">
+                <li class="w3-theme">
+                    <p class="w3-xlarge"><a href="https://dev.to/phylis/python-classes-and-objects-51on"
+                            style="text-decoration: none;">Classes and Objects</a></p>
+
+                <li class="w3-theme-l5 w3-padding-24">
+                    <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact Container -->
+    <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+        <div class="w3-row">
+            <div class="w3-col m5">
+                <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+                <h3>Address</h3>
+                <p>Swing by for a cup of coffee, or whatever.</p>
+                <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Chicago, US</p>
+                <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
+                <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
+            </div>
+            <div class="w3-col m7">
+                <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+                    <div class="w3-section">
+                        <label>Name</label>
+                        <input class="w3-input" type="text" name="Name" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Email</label>
+                        <input class="w3-input" type="text" name="Email" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Message</label>
+                        <input class="w3-input" type="text" name="Message" required>
+                    </div>
+                    <input class="w3-check" type="checkbox" checked name="Like">
+                    <label>I Like it!</label>
+                    <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+        <h4>Follow Us</h4>
+        <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i
+                class="fa fa-facebook"></i></a>
+        <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i
+                class="fa fa-twitter"></i></a>
+        <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i
+                class="fa fa-google-plus"></i></a>
+        <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i
+                class="fa fa-instagram"></i></a>
+        <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i
+                class="fa fa-linkedin"></i></a>
+
+        <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+            <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+            <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+                    <i class="fa fa-chevron-circle-up"></i></span></a>
+        </div>
+    </footer>
+
+    <script>
+        // Script for side navigation
+        function w3_open() {
+            var x = document.getElementById("mySidebar");
+            x.style.width = "300px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+        }
+
+        // Close side navigation
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

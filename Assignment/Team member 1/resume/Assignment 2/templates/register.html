@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Register Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+        <style>
+            .button1{
+                background-color: brown; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 172px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+            
+            }
+                </style>
+    </head>
+    <body style="background-color: #9ad7b5;">
+        <div class="register">
+            <h1>REGISTER</h1>
+            <div class="links">
+                <a href="index.html">LOGIN</a>
+                <a href="register.html" class="active">REGISTER</a>
+            </div>
+            <form action="{{ url_for('register') }}" method="post" autocomplete="off">
+                <label for="username">
+                    <i class="fa fa-user"></i>
+                </label>
+                <input type="text" name="username" placeholder="Username" id="username" required>
+                <label for="password">
+                    <i class="fa fa-lock"></i>
+                </label>
+                <input type="password" name="password" placeholder="Password" id="password" required>
+                <label for="email">
+                    <i class="fa fa-envelope-open"></i>
+                </label>
+                <input type="email" name="email" placeholder="Email" id="email" required>
+                <a class="button1" href="home.html" style="text-decoration: none; color:white;">Register</a>
+                <!-- <input type="submit" value="Register" href="layout.html"> -->
+            </form>
+        </div>
+    </body>
+</html>
