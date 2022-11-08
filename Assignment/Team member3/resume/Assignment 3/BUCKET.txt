@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Fashion</title>
+    <link rel="stylesheet" href="https://ami.s3.au-syd.cloud-object-storage.appdomain.cloud/style.css">
+
+</head>
+
+<body>
+    <h1 >!!! SMART FASHION !!!</h1>
+    <div>
+        <img src="https://trend.s3.jp-tok.cloud-object-storage.appdomain.cloud/Types-of-Fashion-Photography-Thumbnail.webp"
+            alt="TRENDS" srcset="">
+        <img src="https://trend.s3.jp-tok.cloud-object-storage.appdomain.cloud/istockphoto-541149082-612x612.jpg"
+            alt="TRENDS" srcset="">
+        <img src="https://trend.s3.jp-tok.cloud-object-storage.appdomain.cloud/pexels-photo-1536619.jpeg"
+            alt="TRENDS" srcset="">
+        <img src="https://trend.s3.jp-tok.cloud-object-storage.appdomain.cloud/photo-1515886657613-9f3515b0c78f.jpeg"
+            alt="TRENDS" srcset="">
+        <img src="https://trend.s3.jp-tok.cloud-object-storage.appdomain.cloud/photo-1619086303291-0ef7699e4b31.jpeg"
+          alt="TRENDS" srcset="">
+    </div>
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "ce895ed6-b7b8-445b-96e0-2f024c5ebf88", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "4e1276f1-718f-492c-a6e0-53a7ef8088b0", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
