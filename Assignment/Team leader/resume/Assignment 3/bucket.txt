@@ -1,0 +1,41 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Fashion</title>
+    <link rel="stylesheet" href="https://ami.s3.au-syd.cloud-object-storage.appdomain.cloud/style.css">
+
+</head>
+
+<body>
+    <h1 >!!! SMART FASHION !!!</h1>
+    <div>
+        <img src="https://maxfashion.s3.jp-tok.cloud-object-storage.appdomain.cloud/0d3342c1b02e6f2786d21f77f27283be.jpg"
+            alt="Max Fashion" srcset="">
+        <img src="https://maxfashion.s3.jp-tok.cloud-object-storage.appdomain.cloud/1661895033-comic-high-rise-straight-jeans-1661894996.png"
+            alt="Max Fashion" srcset="">
+        <img src="https://maxfashion.s3.jp-tok.cloud-object-storage.appdomain.cloud/630304b491e7820fabc72bf7af298338.jpg"
+            alt="Max Fashion" srcset="">
+        <img src="https://maxfashion.s3.jp-tok.cloud-object-storage.appdomain.cloud/fashion-pretty-cool-young-girl-shopping-bags-wearing-black-hat-white-pants-over-colorful-orange-background-79063329.jpg"
+            alt="Max Fashion" srcset="">
+        <img src="https://maxfashion.s3.jp-tok.cloud-object-storage.appdomain.cloud/istockphoto-1349414698-170667a.jpg"
+          alt="Max Fashion" srcset="">
+    </div>
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "7923a6e9-156b-4999-a92f-9dac58e4898b", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "a82d1ca9-76f5-45f5-b790-047cbaa5bcad", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
